@@ -18,7 +18,7 @@ class RitaseFactory extends Factory
     {
         return [
             'ritase_date' => fake()->date(),
-            'ritase_time' => fake()->time(),
+            'ritase_time' => fake()->time('h:i a'),
             'ritase_material' => fake()->word(),
             'ritase_kategori' => fake()->word(),
             'ritase_keterangan' => fake()->paragraph(),

@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('ritases', function (Blueprint $table) {
             $table->id('ritase_id');
             $table->date('ritase_date');
-            $table->time('ritase_time');
+            $table->string('ritase_time');
             $table->string('ritase_material');
             $table->string('ritase_kategori');
             $table->text('ritase_keterangan');
