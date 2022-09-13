@@ -29,3 +29,4 @@ Route::post('/ritase', [RitaseAPIController::class, 'create']);
 Route::put('/ritase/{ritase_id}', [RitaseAPIController::class, 'edit']);
 
 Route::delete('/ritase/{ritase_id}', [RitaseAPIController::class, 'delete']);
+ //tes
